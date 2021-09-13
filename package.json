@@ -14,8 +14,11 @@
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https"
   },
-  "private": false,
-  "workspaces": [],
+  "private": true,
+  "workspaces": [
+    "src/addons/volto-eea-kitkat",
+    "src/addons/volto-searchlib"
+  ],
   "addons": [
     "@eeacms/volto-eea-kitkat"
   ],
@@ -113,5 +116,8 @@
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
+  },
+  "resolutions": {
+    "webpack-node-externals": "1.7.2"
   }
 }

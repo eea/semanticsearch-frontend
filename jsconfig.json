@@ -2,7 +2,19 @@
     "compilerOptions": {
         "paths": {
             "@eeacms/volto-eea-kitkat": [
+                "addons/volto-eea-kitkat/src"
+            ],
+            "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
+            ],
+            "@eeacms/search": [
+                "addons/searchlib/packages/searchlib"
+            ],
+            "@eeacms/search-middleware": [
+                "addons/searchlib/packages/searchlib-middleware"
+            ],
+            "@eeacms/search-less": [
+                "addons/searchlib/packages/searchlib-less"
             ]
         },
         "baseUrl": "src"
