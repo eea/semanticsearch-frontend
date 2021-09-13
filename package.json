@@ -20,7 +20,8 @@
     "src/addons/volto-searchlib"
   ],
   "addons": [
-    "@eeacms/volto-eea-kitkat"
+    "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-searchlib"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -107,7 +108,8 @@
   },
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "2.0.2",
-    "@plone/volto": "13.15.0"
+    "@plone/volto": "13.15.0",
+    "regenerator-runtime": "0.13.9"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
