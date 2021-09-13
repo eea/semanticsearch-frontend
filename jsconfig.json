@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-eea-kitkat": [
+                "addons/volto-searchlib/src"
+            ]
         },
         "baseUrl": "src"
     }
