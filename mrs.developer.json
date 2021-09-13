@@ -1,13 +1,15 @@
 {
   "volto-eea-kitkat": {
-    "url": "https://github.com/eea/volto-eea-kitkat.git",
+    "url": "git@github.com:eea/volto-eea-kitkat.git",
+    "https": "https://github.com/eea/volto-eea-kitkat.git",
     "package": "@eeacms/volto-eea-kitkat",
     "path": "src",
     "branch": "develop"
   },
   "volto-searchlib": {
-    "url": "https://github.com/eea/volto-eea-kitkat.git",
-    "package": "@eeacms/volto-eea-kitkat",
+    "url": "git@github.com:eea/volto-searchlib.git",
+    "https": "https://github.com/eea/volto-searchlib.git",
+    "package": "@eeacms/volto-searchlib",
     "path": "src",
     "branch": "develop"
   }
