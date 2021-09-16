@@ -43,8 +43,8 @@ RUN chown -R node /opt/frontend/
 WORKDIR /opt/frontend/
 
 RUN yarn develop
-RUN yalc add --no-pure @eeacms/searchlib
-RUN yalc add --no-pure @eeacms/global-search
+RUN yalc add --no-pure @eeacms/search
+RUN yalc add --no-pure @eeacms/globalsearch
 RUN yarn
 RUN yarn build
 # RUN rm -rf /home/node/.cache
