@@ -25,6 +25,7 @@ RUN git checkout standalone-split
 RUN pnpm i || true
 RUN pnpm m build || true
 
+USER root
 WORKDIR /opt/searchlib/packages/searchlib
 RUN yalc publish
 
