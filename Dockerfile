@@ -12,6 +12,7 @@ ENV RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH
 
 RUN npm install -g pnpm
 RUN npm install -g yalc
+RUN npm install -g mrs-developer
 
 RUN mkdir -p /opt/
 WORKDIR /opt
