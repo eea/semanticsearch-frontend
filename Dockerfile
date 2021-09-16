@@ -1,6 +1,6 @@
 FROM node:14-stretch-slim
 
-RUN runDeps="openssl ca-certificates patch git python" \
+RUN runDeps="openssl ca-certificates patch git python make" \
  && apt-get update \
  && apt-get install -y --no-install-recommends $runDeps \
  && apt-get clean \
