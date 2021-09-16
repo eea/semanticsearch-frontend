@@ -23,7 +23,7 @@ WORKDIR /opt/searchlib
 RUN git checkout standalone-split
 
 RUN pnpm i || true
-RUN pnpm m build
+RUN pnpm m build || true
 
 WORKDIR /opt/searchlib/packages/searchlib
 RUN yalc publish
