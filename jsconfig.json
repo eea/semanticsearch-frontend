@@ -11,10 +11,10 @@
                 "addons/volto-searchlib/src"
             ],
             "@eeacms/search": [
-                "addons/searchlib/packages/searchlib"
+                "addons/searchlib/packages/searchlib/src"
             ],
             "@eeacms/globalsearch": [
-                "addons/searchlib/packages/searchlib-globalsearch"
+                "addons/searchlib/packages/searchlib-globalsearch/src"
             ]
         },
         "baseUrl": "src"

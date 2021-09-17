@@ -2016,10 +2016,10 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/volto-accordion-block@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.1.tgz#67e1becb5b0c9e0846575a42c97f69908a6c0d02"
-  integrity sha512-V48b9x1YtR/yFbe+jtswfDY/k3MvVE/az7pfNrRtTMxlCH9JQcaIMHG+6HYJPnPcTXhUuh63yrvpwKwUlgrObA==
+"@eeacms/volto-accordion-block@3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.2.tgz#75f16013583813962e0aa075140f0142fed4ccd9"
+  integrity sha512-pUkZEnyEbvTFjfTXXeB0XlVqTVkB8+4Pklc+yEQFJq7AkVGDJiksoC6Q2JNdwKzniDydRUYdgkAHne7x34Bl4w==
 
 "@eeacms/volto-block-divider@2.1.3":
   version "2.1.3"
@@ -8337,6 +8337,11 @@ expect@^24.9.0:
     jest-matcher-utils "^24.9.0"
     jest-message-util "^24.9.0"
     jest-regex-util "^24.9.0"
+
+express-list-routes@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/express-list-routes/-/express-list-routes-1.1.3.tgz#247632495e9d799b03d975f7d7e247c118999f4d"
+  integrity sha512-M5ssbdYsspn4UPErwQ0qotaqK4uHOpN8WeHeSWQ0wmw0I+vyqbTNaCVEN7x+oFINowYisbQZ04Q/OQ5FU6dTOQ==
 
 express@4.17.1, express@^4.16.3, express@^4.17.1:
   version "4.17.1"
@@ -19168,7 +19173,7 @@ webpack-manifest-plugin@^2.2.0:
     object.entries "^1.1.0"
     tapable "^1.0.0"
 
-webpack-node-externals@^1.7.2:
+webpack-node-externals@1.7.2, webpack-node-externals@^1.7.2:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/webpack-node-externals/-/webpack-node-externals-1.7.2.tgz#6e1ee79ac67c070402ba700ef033a9b8d52ac4e3"
   integrity sha512-ajerHZ+BJKeCLviLUUmnyd5B4RavLF76uv3cs6KNuO8W+HuQaEs0y0L7o40NQxdPy5w0pcv8Ew7yPUAQG0UdCg==

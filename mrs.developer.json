@@ -18,8 +18,8 @@
     "url": "git@github.com:eea/searchlib.git",
     "branch": "standalone-split",
     "packages": {
-      "@eeacms/search": "packages/searchlib",
-      "@eeacms/globalsearch": "packages/searchlib-globalsearch"
+      "@eeacms/search": "packages/searchlib/src",
+      "@eeacms/globalsearch": "packages/searchlib-globalsearch/src"
     }
   }
 }
