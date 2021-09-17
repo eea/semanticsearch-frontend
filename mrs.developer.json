@@ -12,5 +12,14 @@
     "package": "@eeacms/volto-searchlib",
     "path": "src",
     "branch": "develop"
+  },
+  "searchlib": {
+    "https": "https://github.com/eea/searchlib.git",
+    "url": "git@github.com:eea/searchlib.git",
+    "branch": "standalone-split",
+    "packages": {
+      "@eeacms/search": "packages/searchlib",
+      "@eeacms/globalsearch": "packages/searchlib-globalsearch"
+    }
   }
 }
