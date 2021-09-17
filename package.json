@@ -21,7 +21,8 @@
   ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-searchlib:installGlobalSearch"
+    "@eeacms/volto-searchlib:installGlobalSearch",
+    "@eeacms/volto-sustainability-theme"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
