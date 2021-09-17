@@ -19,7 +19,15 @@
     "branch": "standalone-split",
     "packages": {
       "@eeacms/search": "packages/searchlib/src",
+      "@eeacms/search-less": "packages/searchlib-less",
       "@eeacms/globalsearch": "packages/searchlib-globalsearch/src"
     }
+  },
+  "volto-sustainability-theme": {
+    "url": "git@github.com:eea/volto-sustainability-theme.git",
+    "https": "https://github.com/eea/volto-sustainability-theme.git",
+    "package": "@eeacms/volto-sustainability-theme",
+    "path": "src",
+    "branch": "develop"
   }
 }
