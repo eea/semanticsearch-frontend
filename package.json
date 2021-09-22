@@ -109,7 +109,7 @@
   },
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "2.0.2",
-    "@plone/volto": "file:.yalc/@plone/volto",
+    "@plone/volto": "plone/volto#separate_devproxy",
     "express-list-routes": "1.1.3",
     "regenerator-runtime": "0.13.9"
   },
