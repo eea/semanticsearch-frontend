@@ -16,13 +16,12 @@
   },
   "private": true,
   "workspaces": [
-    "src/addons/volto-eea-kitkat",
     "src/addons/volto-searchlib"
   ],
   "addons": [
-    "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-searchlib:installGlobalSearch",
-    "@eeacms/volto-sustainability-theme"
+    "@eeacms/volto-sustainability-theme",
+    "@eeacms/volto-eea-kitkat"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -111,6 +110,7 @@
     "@eeacms/volto-eea-kitkat": "4.0.0",
     "@plone/volto": "plone/volto#separate_devproxy",
     "express-list-routes": "1.1.3",
+    "levenary": "1.1.1",
     "regenerator-runtime": "0.13.9"
   },
   "devDependencies": {
