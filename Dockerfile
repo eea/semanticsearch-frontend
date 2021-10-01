@@ -15,43 +15,13 @@ RUN npm install -g yalc
 RUN npm install -g mrs-developer
 
 RUN mkdir -p /opt/
-WORKDIR /opt
 
-RUN git clone https://github.com/eea/searchlib.git
-RUN chown -R node /opt/searchlib/
-USER node
-WORKDIR /opt/searchlib
-RUN git checkout standalone-split
-
-RUN pnpm i || true
-RUN pnpm m build || true
-
-USER root
-WORKDIR /opt/searchlib/packages/searchlib
-RUN yalc publish
-
-WORKDIR /opt/searchlib/packages/searchlib-globalsearch
-RUN yalc publish
-
-WORKDIR /opt/searchlib/packages/searchlib-less
-RUN yalc publish
-
-WORKDIR /opt/searchlib/packages/searchlib-middleware
-RUN yalc publish
-
-COPY . /opt/frontend/
-RUN chown -R node /opt/frontend/
-
-WORKDIR /opt/frontend/
-
-RUN yarn develop
-RUN yalc add --no-pure @eeacms/search
-RUN yalc add --no-pure @eeacms/globalsearch
-RUN yarn
-RUN yarn build
+#RUN yarn develop
+#RUN yarn
+#RUN yarn build
 # RUN rm -rf /home/node/.cache
 
 EXPOSE 3000 3001 4000 4001
 
-ENTRYPOINT ["/opt/frontend/entrypoint-prod.sh"]
-CMD ["yarn", "start:prod"]
+#ENTRYPOINT ["/opt/frontend/entrypoint-prod.sh"]
+#CMD ["yarn", "start:prod"]
