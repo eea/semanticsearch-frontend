@@ -16,7 +16,7 @@
   },
   "private": true,
   "workspaces": [
-    "src/addons/volto-searchlib"
+    "src/addons/*"
   ],
   "addons": [
     "@eeacms/volto-searchlib:installGlobalSearch",
@@ -108,7 +108,9 @@
   },
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "4.0.1",
+    "@eeacms/volto-searchlib": "eea/volto-searchlib#develop",
     "@plone/volto": "plone/volto#separate_devproxy",
+    "@eeacms/volto-sustainability-theme": "eea/volto-sustainability-theme#develop",
     "express-list-routes": "1.1.3",
     "levenary": "1.1.1",
     "regenerator-runtime": "0.13.9"
