@@ -4,9 +4,6 @@
             "searchlib": [
                 "addons/searchlib"
             ],
-            "@eeacms/volto-eea-kitkat": [
-                "addons/volto-eea-kitkat/src"
-            ],
             "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
             ],
