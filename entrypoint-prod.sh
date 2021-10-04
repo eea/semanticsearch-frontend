@@ -12,9 +12,9 @@ fi
 function apply_rebuild {
   mkdir -p /opt/frontend/src/addons
   find /opt/frontend/ -not -user node -exec chown node {} \+
-  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn develop
-  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn
-  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn build
+  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn develop
+  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn
+  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build
   find /opt/frontend/ -not -user node -exec chown node {} \+
 }
 
@@ -27,13 +27,13 @@ function apply_path {
     test -n "$API_PATH"
 
     echo "Changing built files inplace"
-    gosu node sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $mainjs
-    gosu node sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $bundlejs
-    gosu node sed -i "s#VOLTO_INTERNAL_API_PATH#${INTERNAL_API_PATH}#g" $mainjs
-    gosu node sed -i "s#VOLTO_INTERNAL_API_PATH#${INTERNAL_API_PATH}#g" $bundlejs
+    sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $mainjs
+    sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $bundlejs
+    sed -i "s#VOLTO_INTERNAL_API_PATH#${INTERNAL_API_PATH}#g" $mainjs
+    sed -i "s#VOLTO_INTERNAL_API_PATH#${INTERNAL_API_PATH}#g" $bundlejs
 
     echo "Zipping JS Files"
-    gosu node gzip -fk $mainjs
+    gzip -fk $mainjs
 }
 
 # Should we re-build
@@ -43,12 +43,8 @@ test -n "$REBUILD" && apply_rebuild
 test -n "$API_PATH" && apply_path
 
 # Sentry
-gosu node ./create-sentry-release.sh
+#gosu node ./create-sentry-release.sh
 
 echo "Starting Volto"
-
-if [[ "$1" == "yarn"* ]]; then
-  exec gosu node "$@"
-fi
 
 exec "$@"
