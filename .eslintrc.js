@@ -20,6 +20,8 @@ const addonAliases = Object.keys(reg.packages).map(o => [
   reg.packages[o].modulePath,
 ]);
 
+// console.log('eslint search path', `${projectRootPath}/src/addons/searchlib/packages/searchlib`);
+
 module.exports = {
   extends: `${projectRootPath}/node_modules/@plone/volto/.eslintrc`,
   settings: {
@@ -30,7 +32,7 @@ module.exports = {
           ...addonAliases,
           ['@package', `${__dirname}/src`],
           ['~', `${__dirname}/src`],
-          ['@eeacms/search', `${projectRootPath}/src/addons/searchlib/packages/searchlib/src`],
+          ['@eeacms/search', `${projectRootPath}/src/addons/searchlib/packages/searchlib`],
           ['@eeacms/globalsearch', `${projectRootPath}/src/addons/searchlib/packages/searchlib-globalsearch/src`],
           ['@eeacms/search-less', `${projectRootPath}/src/addons/searchlib/packages/searchlib-less`],
         ],
