@@ -3,6 +3,7 @@ FROM node:14-stretch-slim
 RUN runDeps="openssl ca-certificates patch git python build-essential" \
  && apt-get update \
  && apt-get install -y --no-install-recommends $runDeps \
+ && apt-get install iputils-ping curl mc -y \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
