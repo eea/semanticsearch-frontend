@@ -1,0 +1,25 @@
+version: "3"
+
+# Note: this is for development and testing with the docker image
+# Execute ./entrypoint-prod.sh when entering container, then start with
+# yarn start:prod
+# Example .env file:
+#
+# FRONTEND_IMAGE=semanticsearch-frontend:latest
+# MACHINE_IP=192.168.100.5
+# BACKEND_PORT=8080
+#
+
+services:
+  frontend:
+    # build: .
+    image: "${FRONTEND_IMAGE:?no such variable}"
+    environment:
+      RAZZLE_API_PATH: "http://localhost:${BACKEND_PORT}/${SITE_NAME:-Plone}"
+      RAZZLE_INTERNAL_API_PATH: "http://${MACHINE_IP}:8080/${SITE_NAME:-Plone}"
+      PORT: "${FRONTEND_PORT:-3000}"
+    ports:
+      - "${FRONTEND_PORT:-3000}:${FRONTEND_PORT:-3000}"
+      - "${FRONTEND_PORT_NEXT:-3001}:${FRONTEND_PORT_NEXT:-3001}"
+      - "${FRONTEND_ANALYZE_PORT:-8888}:${FRONTEND_ANALYZE_PORT:-8888}"
+    entrypoint: sh -c "tail -f /dev/null"
