@@ -1280,12 +1280,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.8.tgz#bedb2d2b4e4da6c8e1263f1b618204fe9def3b53"
   integrity sha512-BYYixVorYtYOh5nktMRFL4ODVDyPt0GOcffMsy3uhZdT5EVsknZGc+0c642YJ+K8xPWy8mb048wfo/U525+L6g==
 
-"@eeacms/volto-searchlib@eea/volto-searchlib#v0.1.31":
+"@eeacms/volto-searchlib@eea/volto-searchlib#develop":
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-searchlib/tar.gz/9da49bf9a2a562b48c3bf28597823c2fdd1b3906"
   dependencies:
-    "@elastic/react-search-ui" "1.7.0"
-    "@elastic/search-ui" "1.7.0"
+    "@elastic/react-search-ui" "1.9.0"
+    "@elastic/react-search-ui-views" "1.9.0"
+    "@elastic/search-ui" "1.9.0"
     "@visx/group" "2.1.0"
     "@visx/responsive" "2.1.1"
     "@visx/scale" "2.1.0"
