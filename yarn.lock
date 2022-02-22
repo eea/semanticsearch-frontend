@@ -1280,9 +1280,9 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.8.tgz#bedb2d2b4e4da6c8e1263f1b618204fe9def3b53"
   integrity sha512-BYYixVorYtYOh5nktMRFL4ODVDyPt0GOcffMsy3uhZdT5EVsknZGc+0c642YJ+K8xPWy8mb048wfo/U525+L6g==
 
-"@eeacms/volto-searchlib@eea/volto-searchlib#v0.1.41":
+"@eeacms/volto-searchlib@eea/volto-searchlib#v0.1.42":
   version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-searchlib/tar.gz/d2be9b312ae648c4c5a24cc8237320192cc9ae5c"
+  resolved "https://codeload.github.com/eea/volto-searchlib/tar.gz/c64f8e290b199da51f3d844d2ecbcdf3dc1dd73c"
   dependencies:
     "@elastic/react-search-ui" "1.9.0"
     "@elastic/react-search-ui-views" "1.9.0"
@@ -1294,7 +1294,7 @@
     "@visx/tooltip" "2.1.0"
     csv-stringify "5.6.5"
     elasticsearch "16.7.2"
-    jotai "1.3.4"
+    jotai "1.6.0"
     lodash.clonedeep "4.5.0"
     lodash.isfunction "3.0.9"
     lodash.uniq "4.5.0"
@@ -9853,10 +9853,10 @@ jest@^24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
-jotai@1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.3.4.tgz#7bcc95416ba1b6b6dfd758bb24500f21b9f65d39"
-  integrity sha512-6gXlhMSira/hsI5pUBK50cwGkuLmUX049BqQTNwEb2oYznv8s64XL0U5FEYrz/6ye96sM2PEvPwNs1ydOQtdQQ==
+jotai@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.6.0.tgz#81412756dab42fcb712530fba512e5e43bd0de15"
+  integrity sha512-J/+aD9R1XDcNeY8drg/y/I47eUivQ13HGmLmA33w95SvJJLBStSF5WxYrmLgbuWcDC6MpRecF3g/GBchPJNcZg==
 
 jquery@x.*:
   version "3.5.0"
