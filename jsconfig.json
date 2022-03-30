@@ -1,17 +1,28 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "searchlib": ["addons/searchlib"],
-      "@eeacms/volto-searchlib": ["addons/volto-searchlib/src"],
-      "@eeacms/search": ["addons/searchlib/packages/searchlib/src"],
-      "@eeacms/search-less": ["addons/searchlib/packages/searchlib-less"],
-      "@eeacms/globalsearch": [
-        "addons/searchlib/packages/searchlib-globalsearch/src"
-      ],
-      "@eeacms/volto-sustainability-theme": [
-        "addons/volto-sustainability-theme/src"
-      ]
-    },
-    "baseUrl": "src"
-  }
+    "compilerOptions": {
+        "paths": {
+            "searchlib": [
+                "addons/searchlib"
+            ],
+            "@eeacms/volto-searchlib": [
+                "addons/volto-searchlib/src"
+            ],
+            "@eeacms/search": [
+                "addons/searchlib/packages/searchlib/src"
+            ],
+            "@eeacms/search-less": [
+                "addons/searchlib/packages/searchlib-less"
+            ],
+            "@eeacms/globalsearch": [
+                "addons/searchlib/packages/searchlib-globalsearch/src"
+            ],
+            "@eeacms/datahub": [
+                "addons/searchlib/packages/searchlib-datahub/src"
+            ],
+            "@eeacms/volto-sustainability-theme": [
+                "addons/volto-sustainability-theme/src"
+            ]
+        },
+        "baseUrl": "src"
+    }
 }

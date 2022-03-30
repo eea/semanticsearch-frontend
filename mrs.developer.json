@@ -13,7 +13,8 @@
     "packages": {
       "@eeacms/search": "packages/searchlib/src",
       "@eeacms/search-less": "packages/searchlib-less",
-      "@eeacms/globalsearch": "packages/searchlib-globalsearch/src"
+      "@eeacms/globalsearch": "packages/searchlib-globalsearch/src",
+      "@eeacms/datahub": "packages/searchlib-datahub/src"
     }
   },
   "volto-sustainability-theme": {
