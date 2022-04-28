@@ -21,7 +21,8 @@
   "addons": [
     "@eeacms/volto-searchlib:installGlobalSearch,installDataHub",
     "@eeacms/volto-sustainability-theme",
-    "@eeacms/volto-eea-kitkat"
+    "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-datahub"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
