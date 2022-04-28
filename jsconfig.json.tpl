@@ -7,9 +7,7 @@
       "@eeacms/globalsearch": [
         "addons/searchlib/packages/searchlib-globalsearch/src"
       ],
-      "@eeacms/datahub": [
-        "addons/searchlib/packages/searchlib-datahub/src"
-      ]
+      "@eeacms/volto-datahub": ["addons/volto-datahub/src"]
     },
     "baseUrl": "src"
   }
