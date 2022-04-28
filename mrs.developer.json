@@ -23,5 +23,12 @@
     "package": "@eeacms/volto-sustainability-theme",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-datahub": {
+    "url": "git@github.com:eea/volto-datahub.git",
+    "https": "https://github.com/eea/volto-datahub.git",
+    "package": "@eeacms/volto-datahub",
+    "path": "src",
+    "branch": "develop"
   }
 }
