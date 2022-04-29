@@ -15,13 +15,8 @@
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https"
   },
   "private": true,
-  "workspaces": [
-    "src/addons/*"
-  ],
-  "addons": [
-    "@eeacms/volto-sustainability-theme",
-    "@eeacms/volto-eea-kitkat"
-  ],
+  "workspaces": [],
+  "addons": [],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
