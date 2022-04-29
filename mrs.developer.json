@@ -9,11 +9,10 @@
   "searchlib": {
     "https": "https://github.com/eea/searchlib.git",
     "url": "git@github.com:eea/searchlib.git",
-    "branch": "standalone-split",
+    "branch": "move_globalsearch",
     "packages": {
       "@eeacms/search": "packages/searchlib/src",
-      "@eeacms/search-less": "packages/searchlib-less",
-      "@eeacms/globalsearch": "packages/searchlib-globalsearch/src"
+      "@eeacms/search-less": "packages/searchlib-less"
     }
   },
   "volto-sustainability-theme": {
