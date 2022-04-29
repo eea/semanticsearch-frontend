@@ -21,6 +21,9 @@
             ],
             "@eeacms/volto-datahub": [
                 "addons/volto-datahub/src"
+            ],
+            "@eeacms/volto-globalsearch": [
+                "addons/volto-globalsearch/src"
             ]
         },
         "baseUrl": "src"

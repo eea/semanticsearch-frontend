@@ -29,5 +29,12 @@
     "package": "@eeacms/volto-datahub",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-globalsearch": {
+    "url": "git@github.com:eea/volto-globalsearch.git",
+    "https": "https://github.com/eea/volto-globalsearch.git",
+    "package": "@eeacms/volto-globalsearch",
+    "path": "src",
+    "branch": "develop"
   }
 }
