@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "razzle start --trace-warnings",
-    "postinstall": "yarn omelette && yarn patches",
-    "omelette": "ln -sf node_modules/@plone/volto/ omelette",
     "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
+    "postinstall": "yarn omelette && yarn patches",
+    "omelette": "if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi",
     "build": "razzle build",
     "test": "razzle test --env=jest-environment-jsdom-sixteen --passWithNoTests",
     "start:prod": "NODE_ENV=production node build/server.js",
@@ -15,7 +15,9 @@
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https"
   },
   "private": true,
-  "workspaces": [],
+  "workspaces": [
+    "src/addons/*"
+  ],
   "addons": [],
   "jest": {
     "modulePathIgnorePatterns": [
