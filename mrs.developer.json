@@ -20,7 +20,7 @@
     "url": "git@github.com:eea/searchlib.git",
     "branch": "move_globalsearch",
     "packages": {
-      "@eeacms/search": "packages/searchlib",
+      "@eeacms/search": "packages/searchlib/src",
       "@eeacms/search-less": "packages/searchlib-less"
     }
   },

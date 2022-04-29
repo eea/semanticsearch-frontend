@@ -18,7 +18,13 @@
   "workspaces": [
     "src/addons/*"
   ],
-  "addons": [],
+  "addons": [
+    "@eeacms/volto-sustainability-theme",
+    "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-searchlib",
+    "@eeacms/volto-globalsearch",
+    "@eeacms/volto-datahub"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"

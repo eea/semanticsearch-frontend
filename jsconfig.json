@@ -8,7 +8,7 @@
                 "addons/volto-searchlib/src"
             ],
             "@eeacms/search": [
-                "addons/searchlib/packages/searchlib"
+                "addons/searchlib/packages/searchlib/src"
             ],
             "@eeacms/search-less": [
                 "addons/searchlib/packages/searchlib-less"
