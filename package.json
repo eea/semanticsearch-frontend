@@ -19,10 +19,8 @@
     "src/addons/*"
   ],
   "addons": [
-    "@eeacms/volto-searchlib:installGlobalSearch",
     "@eeacms/volto-sustainability-theme",
-    "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-datahub"
+    "@eeacms/volto-eea-kitkat"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -109,7 +107,6 @@
   },
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "5.4.0",
-    "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.47",
     "@eeacms/volto-sustainability-theme": "eea/volto-sustainability-theme#develop",
     "@plone/volto": "14.2.2",
     "express-list-routes": "1.1.3",
