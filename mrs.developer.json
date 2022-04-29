@@ -12,7 +12,7 @@
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
     "path": "src",
-    "branch": "develop"
+    "branch": "move_globalsearch"
   },
   "searchlib": {
     "develop": false,
