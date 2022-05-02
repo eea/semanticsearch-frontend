@@ -24,6 +24,10 @@ RUN git clone https://github.com/eea/searchlib.git
 WORKDIR /opt/frontend/src/addons/searchlib
 RUN git checkout standalone-split
 
+WORKDIR /opt/frontend/src/addons
+RUN git clone https://github.com/eea/volto-datahub.git
+RUN git clone https://github.com/eea/volto-globalsearch.git
+
 RUN chown -R node /opt/frontend/
 
 USER node
