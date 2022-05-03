@@ -110,6 +110,9 @@
   },
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "5.4.0",
+    "@eeacms/volto-searchlib": "eea/volto-searchlib#develop",
+    "@eeacms/volto-datahub": "eea/volto-datahub",
+    "@eeacms/volto-globalsearch": "eea/volto-globalsearch",
     "@eeacms/volto-sustainability-theme": "eea/volto-sustainability-theme#develop",
     "@plone/volto": "14.2.2",
     "express-list-routes": "1.1.3",
