@@ -27,6 +27,13 @@ RUN git checkout standalone-split
 WORKDIR /opt/frontend/src/addons
 RUN git clone https://github.com/eea/volto-datahub.git
 RUN git clone https://github.com/eea/volto-globalsearch.git
+RUN git clone https://github.com/eea/volto-searchlib.git
+WORKDIR /opt/frontend/src/addons/volto-datahub
+RUN git checkout develop
+WORKDIR /opt/frontend/src/addons/volto-globalsearch
+RUN git checkout develop
+WORKDIR /opt/frontend/src/addons/volto-searchlib
+RUN git checkout develop
 
 RUN chown -R node /opt/frontend/
 
