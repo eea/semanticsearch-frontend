@@ -110,7 +110,7 @@
   },
   "dependencies": {
     "@eeacms/volto-datahub": "eea/volto-datahub",
-    "@eeacms/volto-eea-kitkat": "8.2.3",
+    "@eeacms/volto-eea-kitkat": "8.2.4",
     "@eeacms/volto-globalsearch": "eea/volto-globalsearch",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#develop",
     "@eeacms/volto-sustainability-theme": "eea/volto-sustainability-theme#develop",
