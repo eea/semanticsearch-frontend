@@ -1162,10 +1162,10 @@
   dependencies:
     use-elapsed-time "3.0.2"
 
-"@eeacms/volto-accordion-block@10.4.5":
-  version "10.4.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-10.4.5.tgz#b229376a7c5df13c8e6c36c70c2a9df037b6594d"
-  integrity sha512-i4Hx5Q5virlhCUM/HQe9UlWoRqFIYSbWPnSLBxQD0rGlwHyOyvyHSAbFsx3afoWfTE7tUpsbDm5IFDMqLgH1/Q==
+"@eeacms/volto-accordion-block@10.4.6":
+  version "10.4.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-10.4.6.tgz#f299078375a0e6985e52dd2301ed150902806121"
+  integrity sha512-IZfAg8By1dZA2SSr4MNu2gFCs0F67/ZMAlpdqkevSMvkBREjny97cEFtMjkhGyOc3MBTp1vd0TtqvL3cN1GehQ==
   dependencies:
     "@eeacms/volto-widget-theme-picker" "*"
 
@@ -1181,10 +1181,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-3.1.5.tgz#2c38167a8e20611897211e038bc0080f1146a99e"
   integrity sha512-IkiwebHf30nnYePTqbr+skUE6ujHhiYam3ooSHtiiLIBgnvxq/tkUKHBkqhVhackYaM+I2KFGyz6KyY/Xz+26Q==
 
-"@eeacms/volto-block-divider@6.1.5":
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-6.1.5.tgz#06973930545bbce803ac84cfc08259d6ae01f316"
-  integrity sha512-X7H3kMt9J0UpUBDDmUU4YQHaajy7DDRJ6cyiQ4pxL9ZLZEeAfq82wOsEARyJgmcjZzGghwrSkms9CWbztu7JCg==
+"@eeacms/volto-block-divider@6.1.6":
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-6.1.6.tgz#2db68354a1ec23ee28052119da133d6834412327"
+  integrity sha512-K0NYgToWzwNyag0OmypGXrQJf0Xl2WN/VKaSMV+suUFJjI9qVbcpdH/NEX4Rb6iL1kYScj1EgO/k0V41U3KMNQ==
   dependencies:
     "@eeacms/volto-widget-theme-picker" "^1.0.1"
     react-color "~2.18.1"
@@ -1239,16 +1239,16 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-1.2.4.tgz#75832d86c9bc40d0bb206c97aa8a5de199d787ab"
   integrity sha512-SiIl68cIfwdb1SKrwyyY+Y0qrsuZG7j2JvOOGGykbn6pFAlP3aFeUQMLR21c8OTSdWG+WAhcApheNlOohagItg==
 
-"@eeacms/volto-eea-kitkat@21.2.0":
-  version "21.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-21.2.0.tgz#b08b63bad4b478932231075af7d31b69a48a67e0"
-  integrity sha512-DVAin5jCAAhODll27IIgyzOQeWzP8vCu63FhqGQAj+dygZ99fxqgUSfsOb4OaSUxxS7hl3YtZ16qK2lNEveNPQ==
+"@eeacms/volto-eea-kitkat@21.2.1":
+  version "21.2.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-21.2.1.tgz#1e90f1e07f4964a7831ffef55b49e499fc1d49e6"
+  integrity sha512-sii7kNh0mJk4rjYPmy7B3uQS1u85oWJ1FnGq3v0fok7qb7KJD990gD/SOg2vyy0hDwLa89+okSAFopPIPJgUhA==
   dependencies:
     "@eeacms/countup" "2.0.6"
-    "@eeacms/volto-accordion-block" "10.4.5"
+    "@eeacms/volto-accordion-block" "10.4.6"
     "@eeacms/volto-anchors" "0.5.0"
     "@eeacms/volto-banner" "3.1.5"
-    "@eeacms/volto-block-divider" "6.1.5"
+    "@eeacms/volto-block-divider" "6.1.6"
     "@eeacms/volto-block-image-cards" "1.3.6"
     "@eeacms/volto-block-style" "6.0.0"
     "@eeacms/volto-call-to-action-block" "4.3.0"
@@ -1265,10 +1265,10 @@
     "@eeacms/volto-quote-block" "1.2.3"
     "@eeacms/volto-resize-helper" "1.3.4"
     "@eeacms/volto-sentry-rancher-config" "4.0.0"
-    "@eeacms/volto-slate-footnote" "6.2.0"
-    "@eeacms/volto-slate-label" "0.5.8"
-    "@eeacms/volto-slate-metadata-mentions" "7.0.2"
-    "@eeacms/volto-slate-zotero" "5.2.5"
+    "@eeacms/volto-slate-footnote" "6.2.1"
+    "@eeacms/volto-slate-label" "0.5.9"
+    "@eeacms/volto-slate-metadata-mentions" "7.0.3"
+    "@eeacms/volto-slate-zotero" "5.2.6"
     "@eeacms/volto-statistic-block" "4.1.0"
     "@eeacms/volto-tabs-block" "7.0.5"
     "@eeacms/volto-tags-block" "1.2.4"
@@ -1380,25 +1380,25 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-4.0.0.tgz#05680d6ff2043c50f242a634cbdee8b58e0e8499"
   integrity sha512-YEtXh4yFAIwpxO3GFDzV2vKqel21xBiWBmlOliO6FjFL38dxVGNGe8oruraiYhaeTP9y+FS1/6QfRJJqIArIZg==
 
-"@eeacms/volto-slate-footnote@*", "@eeacms/volto-slate-footnote@6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-6.2.0.tgz#07d1cccc83381e1f99075c9f2f61417a312313f0"
-  integrity sha512-sTzXCJJotR1W0AW6UsTVk+MtspJBi+POaIFitjlz7wEnbglFK3hWjG/rWSC6KjuEccprB/+jnZVYU6dVwH+8Qw==
+"@eeacms/volto-slate-footnote@*", "@eeacms/volto-slate-footnote@6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-6.2.1.tgz#61ac7383484b0906f92e9157771a0c899a6667ec"
+  integrity sha512-mOzFZwXz/iYrqEaUEnCpgTljTBiqTvnYUEDquPQIC0KUNrqaM7nTNULwQMgrahVGR5wVH2RHX8CAcw9wYH+/ng==
 
-"@eeacms/volto-slate-label@0.5.8":
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-label/-/volto-slate-label-0.5.8.tgz#87ceec525373b23dba739320992b61d34ad13bb9"
-  integrity sha512-spESLuMfx3Cb7CbLdsb03QraWOiBSrExEVsnePeTV10HwBFH/4wxV+tEALU50X2+FMeEIODD8XVngd9ABxV5Pg==
+"@eeacms/volto-slate-label@0.5.9":
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-label/-/volto-slate-label-0.5.9.tgz#5c45f5f176aa2b26f52688fa04121331f422fe4e"
+  integrity sha512-aPAGyfDbQhRkSF3QO2LPNPybeY6VOgfDD8wEnX8lH+k4cXoxdWVO1O5ZkX6m/TCJoxz94VrVYJ9ODNhFGgb5vA==
 
-"@eeacms/volto-slate-metadata-mentions@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-7.0.2.tgz#2e251e451ac34d6467240aa1d374fc122ab22b23"
-  integrity sha512-LVLfLS0cKD4V4agzPblElHevu5pH8hDVUrn7l7fGx0jV1Fe21VXzDBmMA5izbm1eP7PwQV8AIvHnUOxdepDbBw==
+"@eeacms/volto-slate-metadata-mentions@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-7.0.3.tgz#fa4a4396d8317d874a09f6eb55e77720726461bf"
+  integrity sha512-2gKuqbhrBgQqgxb/IWFMDEyEZ9yki05oFe2YvhZPEBHMQNHzy0HfKv9MbMXnRlrV8hfsiQvDfSRTN/V3TSIQ8Q==
 
-"@eeacms/volto-slate-zotero@5.2.5":
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-5.2.5.tgz#df79ab7da59ef421fdf49c0d9c9d3f8465a06cb4"
-  integrity sha512-J4nelO/OVe2MGEZ4hKKG2P26UB/jfAz8AepVH1ekh1VrNnt1Us9BSj4C8fF6WqoJaJc5Igj8gWbEziNbBUWsNg==
+"@eeacms/volto-slate-zotero@5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-5.2.6.tgz#164fa6e9b3165cf71c0db2bea65c70d87a5d8ecc"
+  integrity sha512-h1PCPGEPGnToEoHRGKjCZsDUzZNTFIc5S0bk+nCi+JAQqeN9jdPo7P7NNJ4l7yDnfu9V+Pj/dSSTnHBQeswOvA==
   dependencies:
     "@eeacms/volto-slate-footnote" "*"
 
